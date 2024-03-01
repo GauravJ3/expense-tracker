@@ -26,6 +26,15 @@ func addExpense(category string, value float64, date time.Time) {
 	fmt.Print("Expense added !! ", expenses)
 }
 
+func showExpenseByCategory(category string) {
+	// iterate through the expense array and showcase by category
+}
+
+func summarizeExpenseByDate(fromDate time.Time, toDate time.Time) {
+	// Basically get all expenses fromDate - toDate
+	// summarize it.
+}
+
 func main() {
 
 	reader := bufio.NewReader(os.Stdin)
